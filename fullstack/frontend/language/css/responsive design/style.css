@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    background-color: rgb(red, green, blue);
+}
