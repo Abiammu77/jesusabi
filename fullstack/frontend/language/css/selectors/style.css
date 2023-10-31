@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+}
+p{
+    color: red;
+    font-size: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: lightsalmon;
+    padding: 20px;
+}
+.box-1{
+    color: darkgreen;
+}
+.box-2{
+    color: brown;
+}
+.box-3{
+    color: orangered;
+}
+.box-4{
+    color: palevioletred;
+}
+.box-5{
+    color: darkgoldenrod;
+}
+
+#one{
+    color: orange;
+}
+
+#two{
+    color: green;
+}
