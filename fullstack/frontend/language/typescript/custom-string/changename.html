@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="email"></div>
+<div id="password"></div>
+<input type="text" name="" value="abiya" id="abc">
+<input type="number" name="" value="anitha" id="123">
+<button onclick="capture()">onclick</button>
+<script>
+
+function capture() {
+    let data = document.getElementById('email')
+    let data1 = document.getElementById('password')
+    let data2 = document.getElementById('abc')
+    let data3 = document.getElementById('123')
+    data.innerHTML = 'hello  ${data2.value}'
+    data.innerHTML = 'hello  ${data3.value}'
+    console.log(data2.value)
+    console.log(data3.value)
+    
+}
+
+</script>
+
+    
+</body>
+</html>

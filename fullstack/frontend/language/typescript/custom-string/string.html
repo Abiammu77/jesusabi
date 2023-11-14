@@ -1,0 +1,15 @@
+<script>
+
+    function capture() {
+        let data = document.getElementById('email')
+        let data1 = document.getElementById('password')
+        let data2 = document.getElementById('abc')
+        let data3 = document.getElementById('123')
+        data.innerHTML = 'hello  ${data2.value}'
+        data.innerHTML = 'hello  ${data3.value}'
+        console.log(data2.value)
+        console.log(data3.value)
+        
+    }
+    
+    </script>

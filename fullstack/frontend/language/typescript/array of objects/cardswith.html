@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="root"></div>
+
+<script>
+
+
+let product1={
+    title1:"iphone",
+    price:"2000",
+    discription:"nice phone",
+    img:'https://m.media-amazon.com/images/I/81WimZLWH1L._SL1500_.jpg'
+    }
+
+    let product2={
+    title1:"samsung",
+    price:"3000",
+    discription:"nice phone",
+    img:'https://cdn1.smartprix.com/rx-ipN4tnrld-w1200-h1200/pN4tnrld.jpg'
+    }
+
+    let product3={
+    title1:"redmi",
+    price:"4000",
+    discription:"nice phone",
+    img:'https://i.gadgets360cdn.com/products/large/vivo-t2-5g-db-709x800-1681200173.jpg'
+    }
+
+
+    let product4={
+    title1:"realme",
+    price:"5000",
+    discription:"nice phone",
+    img:'https://5.imimg.com/data5/SELLER/Default/2020/12/UK/GS/MC/25753287/vivo-y50-blue-500x500.jpeg'
+    }
+
+
+    let product5={
+    title1:"jio phone",
+    price:"6000",
+    discription:"nice phone",
+    img:'https://www.91-img.com/pictures/151039-v4-vivo-t2x-mobile-phone-large-1.jpg'
+    }
+
+
+    let list=[product1, product2, product3, product4, product5]
+let data=document.getElementById('root')
+
+
+list.map((item)=>{
+
+let img=document.createElement('img')
+img.style.height="200px"
+img.src=item.img
+data.appendChild(img)
+
+})
+
+
+</script>
+
+
+</body>
+</html>

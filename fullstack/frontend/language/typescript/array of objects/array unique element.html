@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Unique Elements in an Array</title>
+</head>
+<body>
+    <script>
+        let randomcharacter = [2,2,3,3,4,4];
+        let Uniquecharacter = randomcharacter.reduce(function(accumulator, currentvalue){
+            if(accumulator.indexOf(currentvalue) === -1)
+            {
+                accumulator.push(currentvalue);
+            }
+               
+        return accumulator; 
+        },[]);
+
+        console.log(Uniquecharacter);
+            
+        
+            
+
+
+
+
+
+    </script>
+</body>
+</html>
